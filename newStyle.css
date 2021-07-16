@@ -1,0 +1,194 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: rgb(44, 44, 44);
+}
+
+#sideBar {
+  position: fixed;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background-color: #000505;
+  width: 35%;
+  padding-top: 10px;
+  text-align: center;
+  line-height: 10px;
+  color: #fefcfd;
+  font-family: monospace;
+
+}
+
+#mainBar {
+  margin-left: 36%;
+  position: absolute;
+  /* border-style: solid; */
+}
+
+#img {
+  margin-top: 50px;
+  border-radius: 50%;
+  width: 30%;
+  border: 5px;
+  border-style: solid;
+}
+
+.subHeading {
+  font-size: 20px;
+  font-style: normal;
+}
+
+.bttn {
+  padding-right: 10px;
+  background-color: #623cea;
+  border-radius: 10px;
+  border: 0px;
+  color: white;
+  font-family: inherit;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+}
+
+.bttn:hover {
+  transform: scale(1.05);
+  background-color: #4eb7d1;
+  /* color:
+black; */
+}
+
+.card {
+  height: 10%;
+  margin-bottom: 20px;
+  padding-left: 10px;
+  background-color: inherit;
+  color: white;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  /* text-align: center; */
+}
+
+.card h2 {
+  font-size: 48px;
+  color: rgb(165, 165, 58);
+}
+
+.abt {
+  font-size: 20px;
+  /* letter-spacing: 2px; */
+}
+
+.db {
+  padding-right: 10px;
+  border-radius: 10px;
+  border: 1px;
+  color: white;
+  background-color: rgb(39, 38, 38);
+  font-family: inherit;
+  height: 40px;
+  width: 200px;
+  margin: 10px;
+  border-color: black;
+  border-style: solid;
+}
+
+.db:hover {
+  transform: scale(1.05);
+  background-color: rgb(20, 17, 17);
+  /* color: black; */
+}
+
+.Education h3 {
+  color: rgb(196, 157, 84);
+  text-decoration: underline;
+  /* text-decoration: azure; */
+}
+.school {
+  font-size: 20px;
+}
+.vl {
+  margin-left: 0%;
+  margin-top: 20%;
+  /* border-left: 3px solid white; */
+  height: 200px;
+}
+.myAchievements {
+  display: flex;
+  column-gap: 10px;
+}
+.myAchievements h3 {
+  color: rgb(196, 157, 84);
+  text-decoration: underline;
+}
+.myprojects {
+  display: flex;
+  column-gap: 10px;
+}
+.link {
+  color: rgb(156, 77, 77);
+  font-style: italic;
+}
+.myprojects h3 {
+  color: rgb(196, 157, 84);
+  font-size: 25px;
+}
+.certification {
+  display: flex;
+  column-gap: 20px;
+}
+.certification h3 {
+  color: rgb(196, 157, 84);
+  text-decoration: underline;
+}
+.certification a {
+  /* color: brown; */
+  color: rgb(196, 157, 84);
+}
+.name {
+  color: yellow;
+}
+.nameheading {
+  font-size: 50px;
+  margin-top: 0px;
+  color: white;
+}
+.hithere {
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 200px;
+}
+.spacing {
+  line-height: 0%;
+  /* line-height: 0px; */
+}
+.info {
+  color: white;
+  margin-top: 0%;
+}
+.onloading {
+  animation-name: slide;
+  animation-duration: 1.5s;
+  /* animation-timing-function: ease-in-out; */
+}
+@keyframes slide {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}
+.loadingagain {
+  animation-name: slideAgain;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+
+}
+@keyframes slideAgain {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}

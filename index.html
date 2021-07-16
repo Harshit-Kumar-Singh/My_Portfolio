@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Harshit Kumar Singh | Home</title>
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="newStyle.css" />
+  </head>
+
+  <body>
+    <div id="sideBar">
+      <img id="img" src="images/Myimage.jpg" alt="Myimage" />
+      <h1>Harshit Kumar Singh</h1>
+      <p class="subHeading">Computer Science Student</p>
+      <section>
+        <button class="bttn" onclick="scrollToIt('AboutMe')">About Me</button>
+        <br />
+        <button class="bttn" onclick="scrollToIt('myEducation')">
+          Education
+        </button>
+        <br />
+        <button class="bttn" onclick="scrollToIt('mySkills')">
+          Achievements/Skills
+        </button>
+        <br />
+        <button class="bttn" onclick="scrollToIt('projects')">Project</button>
+        <br />
+        <button class="bttn" onclick="scrollToIt('myCertifications')">
+          Certification
+        </button>
+      </section>
+    </div>
+
+    <div id="mainBar">
+      <div id="AboutMe" class="spaceing">
+        <h3 class="hithere">Hi There!</h3>
+        <h2 class="nameheading">
+          I 'M <span class="name">Harshit Kumar Singh</span>
+        </h2>
+        <div class="info">
+          <p>
+            I seek challenging opportunities where I can fully use my skills for
+            the success of the organization.
+          </p>
+          <p>
+            And to enhance my professional skills, capabilities and knowledge in
+            an organization which recognizes the value of hard work and trusts
+            me with responsibilities and challenges.
+          </p>
+        </div>
+        <button class="db" target="_target" onclick="downloadCv()">Download CV</button>
+      </div>
+
+      <div class="card" id="myEducation">
+        <h2>Education</h2>
+        <div class="Education">
+          <div>
+            <p style="font-size: 24px" class="fas">📖 2017</p>
+            <!-- <p>2017</p> -->
+            <h3>High School</h3>
+            <p class="school">Kendriya Vidyalaya No 2 Delhi Cantt-10</p>
+          </div>
+          <div>
+            <p style="font-size: 24px" class="fas">📖 2019</p>
+            <!-- <p>2019</p> -->
+            <h3>InterMediate</h3>
+            <p class="school">Kendriya Vidyalaya No 2 Delhi Cantt-10</p>
+          </div>
+          <div>
+            <p style="font-size: 24px" class="fas">📖 2023</p>
+            <!-- <p>2023</p> -->
+
+            <h3>Under Graduation</h3>
+            <p class="school">GLA University ,Mathura</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" id="mySkills">
+        <h2>Achievements / Skills</h2>
+        <div class="myAchievements">
+          <div>
+            <h3>Google Codejam-2021 ( Qualified Round 1 )</h3>
+            <p>Secured 41 points in Qualification Round of Codejam‐2021</p>
+            <h3>Problem Solving</h3>
+            <p>
+              Solved 700+ Questions on various coding platforms including
+              GFG,Leetcode,Hackerearth,Codechef,Codeforces,Spoj
+            </p>
+            <h3>Codeforces (Highest Rating - 1113)</h3>
+            <p>
+              Solved 300+ Questions on Codeforces with highest rank 4415(DIV-2)
+            </p>
+            <h3>Leetcode</h3>
+            <p>
+              Solved 100+ Questions based on different Data Structures And
+              Algorithm
+            </p>
+            <h3>Codechef (Highest Rating - 1788)</h3>
+            <p>
+              3 Star Coder on Codechef (Highest Rank in Lunchtime - 609 ,Highest
+              Rank in Long Challenge - 309)
+            </p>
+            <h3>CodinGame</h3>
+            <p>
+              Level 6 coder at CodinGame with 1‐Gold,3‐Silver and 9‐Bronze
+              Medals
+            </p>
+            <p>Shortlisted For WIPRO future skill programme</p>
+          </div>
+          <div class="vl">
+            <h3>Languages</h3>
+            <p>C/C++,Dart,HTML,CSS,JavaScript,Java</p>
+            <h3>FrameWork</h3>
+            <p>Flutter,Android</p>
+            <h3>Database</h3>
+            <p>MySQL,Firebase</p>
+          </div>
+        </div>
+      </div>
+      <div class="card" id="projects">
+        <h2>Projects</h2>
+        <div class="myprojects">
+          <div>
+            <h3>Crypto World</h3>
+            <p>
+              Crypto app is a UI template with cross‐platform support and can
+              track market performance <br />
+              IDE ‐ Visual Studio Code, Android Studio
+            </p>
+            <p>Technology used - Flutter,Dart,Firebase,Rest API,Getx_Storage</p>
+            <a
+              class="link"
+              href="https://github.com/Harshit-Kumar-Singh/CryptoWorld"
+              target="_blank"
+              >GitHub Link</a
+            >
+            <br />
+
+            <h3>Sendry</h3>
+            <p>
+              A User Interface clone of the Instagram app made using Flutter
+              <br />
+              IDE ‐ Visual Studio Code, Android Studio
+            </p>
+            <p>Technology used - Flutter,Dart,Firebase</p>
+            <a
+              class="link"
+              href="https://github.com/Harshit-Kumar-Singh/SENDRY-instagramclone"
+              target="_blank"
+              >GitHub Link</a
+            >
+          </div>
+          <div>
+            <h3>My Portfolio</h3>
+            <p>Portfolio which contains my proffessional details including my skills,Education,Projects and Experience
+              <br />
+              IDE ‐ Visual Studio Code
+            </p>
+            <p>Technology used - HTML,CSS,JavaScript</p>
+            <a
+              class="link"
+              href="https://github.com/Harshit-Kumar-Singh/Harshit-Kumar-Singh"
+              target="_blank"
+              >GitHub Link</a>
+            <br />
+            <h3>Crypto World</h3>
+            <p>
+              Crypto app is a UI template with cross‐platform support and can
+              track market performance <br />
+              IDE ‐ Visual Studio Code, Android Studio
+            </p>
+            <p>Technology used - Flutter,Dart,Firebase,Rest API</p>
+            <a
+              class="link"
+              href="https://github.com/Harshit-Kumar-Singh/CryptoWorld"
+              target="_blank"
+              >GitHub Link</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="card" id="myCertifications">
+        <h2>Certifications</h2>
+        <div class="certification">
+          <div>
+            <h3>
+              <a href="https://drive.google.com/file/d/1nCqv1haBFNzFqY9sGnMONMMGRpRxwF0n/view?usp=sharing" target="_blank">Data Structures and Algorithm </a>
+            </h3>
+            <p>Organization-Coding Blocks</p>
+            <br />
+            <h3><a href="https://drive.google.com/file/d/16uqwLQi6JJu6yXb2q0U0CsFVticLg3Ns/view?usp=sharing" target="_blank">Google CodeJam-2021 </a></h3>
+            <p>Organization-Google</p>
+          </div>
+          <div>
+            <h3>
+              <a href="" target="_blank"
+                >Flutter and Dart - Mobile Application Developement
+              </a>
+            </h3>
+            <p>Organization - Udemy</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
